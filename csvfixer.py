@@ -15,4 +15,4 @@ for row in reader:
 with open('newcsv.csv','wb') as f:
         for entry in uniqueIds:
                 f.write(uniqueIds[entry]+", rand, "+entry)
-                f.write('\n')import csv
+                f.write('\n')
